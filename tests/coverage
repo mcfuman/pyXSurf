@@ -1,0 +1,3 @@
+#!/bin/bash
+export PYTHONPATH=$PYTHONPATH:../
+python3 -m pytest --cov=pyXSurf --doctest-modules --cov-report html .
